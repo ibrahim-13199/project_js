@@ -1,0 +1,228 @@
+*{margin: 0;padding: 0;}
+header{
+    background-color: #111;
+    color: blanchedalmond;
+    text-align: left;
+    padding: 20px;
+    background-image: url('./img/logo.jpg');
+    background-size: 100% 100%;
+    font-family: cursive;
+    border-radius: 5px;
+    height: 30%;
+    
+}
+#header1{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+}
+body{
+    background-color:rgb(61, 25, 25);
+}
+
+
+ul{
+    
+    color: #fff;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+li{
+    float: right;
+}
+li a{
+    color: cornsilk;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding:7px;
+    margin: 3px;
+    font-family:cursive;
+}
+div{
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    
+    float: none;
+}
+div p{
+    color:#fff;
+    padding: 10px;
+    margin: 5px;
+}
+p{
+    text-align: center;
+    border-radius: 5px;
+    padding: 1px;
+    color:blanchedalmond;
+    font-size: large;
+    font-family: cursive;
+}
+img{
+     padding: 10px;
+     margin: 15px;
+     border-radius:3px ;
+     width: auto;
+     height: auto;
+     display: inline;
+
+}
+img#pizza{
+    width: 17%;
+}
+img.pizza2{
+    width: 17%;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+div.imegs{
+    margin: 10px;
+    padding:10px ;
+
+}
+footer{
+    bottom: 0;
+    background-color:  #111;
+  
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+         
+}
+.divfooter a .buttonanchor{
+    background-color:rgb(104, 95, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+     font-family: cursive;
+    width: 20px;
+    height: 20px;
+
+}
+.iconLink{
+    color: blanchedalmond;
+   
+    padding: 5px;
+    float:none;
+}
+footer.divfooter{
+    text-align: center;
+
+}
+
+form{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+input{
+    width: 40%;
+    height: 20px;
+    padding: 30px;
+    color:blanchedalmond;
+    background-color: #111;
+    font-size: large;
+}
+.submit:hover{
+   background-color: rgb(104, 95, 95);
+   color:lavenderblush;
+   font-style: normal;
+   font-size: medium;
+   font-family: cursive;
+}
+input.buttons{
+    width: 15%;
+    height: 15%;
+    border-radius: 50px;
+    margin: auto;
+    padding: 3%;
+    color: blanchedalmond;
+    font-size: large;
+    background-color: #111;
+    font-family: cursive;
+
+}
+
+.imgeOFinput1{
+    width: 17%;
+    height: 147px;
+
+}
+.imgeOFinput0{
+    width: 17%;
+    height:25%;
+    
+}
+/*
+
+div button{
+    width: 10%;
+    height: 10%;
+    border-radius: 50px;
+    margin: auto;
+    padding: 3%;
+    color: blanchedalmond;
+    font-size: large;
+    background-color: #111;
+
+}
+
+
+*/
+.btn2{
+    margin-right: 2px;
+}
+#previous:hover{
+    background-color: rgb(102, 95, 95)
+}
+#previous{
+
+    background-color: #111;
+    width: 90px;
+    margin-right: 320px;
+    color: blanchedalmond;
+    padding: 14px;
+    border-radius: 22px;
+    font-family: cursive;
+
+}
+#next:hover{
+
+    background-color: rgb(116, 112, 110);
+
+}
+#next{
+
+    background-color: #111;
+    width: 90px;
+    color: blanchedalmond;
+    padding: 14px;
+    border-radius: 22px;
+    font-family: cursive;
+
+}
+#changelink{
+
+    display: block;
+    float: right;
+    text-decoration: none;
+    border-radius: 22px;
+    background-color: blanchedalmond;
+    width: 29px;
+    height: 30px;
+    padding: 5px;
+    color: darkslategray;  
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
